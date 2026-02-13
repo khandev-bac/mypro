@@ -177,22 +177,46 @@ export default function Home() {
           <section className="mb-16 pb-12 border-b border-muted">
             <h2 className="text-xs tracking-widest uppercase font-light mb-8">Experience</h2>
 
-            <div>
-              <div className="flex items-baseline justify-between mb-3">
-                <div>
-                  <h3 className="text-base font-medium">Founder, NoteUp</h3>
-                  <p className="text-xs text-muted-foreground mt-1">Made notes simple</p>
+            <div className="space-y-8">
+              <div>
+                <div className="flex items-baseline justify-between mb-3">
+                  <div>
+                    <h3 className="text-base font-medium">Founder, NoteUp</h3>
+                    <p className="text-xs text-muted-foreground mt-1">Made notes simple</p>
+                  </div>
                 </div>
+                <p className="text-sm leading-relaxed text-muted-foreground space-y-3">
+                  <span className="block">
+                    A simple clean note taking app which turns your voice into clean, organized notes instantly
+                  </span>
+                  <span className="block">
+                    Instead of typing, you just speak, and the app turns your voice into clear, structured note with a title and content. It is built or designed for brainstorming, quick ideas, and deep thinking sessions, so you never lose a greate thought.
+                    Just fast,minimal, and efforless
+                  </span>
+                </p>
               </div>
-              <p className="text-sm leading-relaxed text-muted-foreground space-y-3">
-                <span className="block">
-                  A simple clean note taking app which turns your voice into clean, organized notes instantly
-                </span>
-                <span className="block">
-                  Instead of typing, you just speak, and the app turns your voice into clear, structured note with a title and content. It is built or designed for brainstorming, quick ideas, and deep thinking sessions, so you never lose a greate thought.
-                  Just fast,minimal, and efforless
-                </span>
-              </p>
+
+              <div>
+                <div className="flex items-baseline justify-between mb-3">
+                  <div>
+                    <h3 className="text-base font-medium">Founder, Russai</h3>
+                    <p className="text-xs text-muted-foreground mt-1">Human connection, redefined</p>
+                  </div>
+                </div>
+                <p className="text-sm leading-relaxed text-muted-foreground space-y-3">
+                  <span className="block">
+                    This AI app is designed to feel like a real human connection. Whether you need a friend to talk to, a loving partner to share your feelings with, or a caring mom or dad figure for comfort and advice, the app adapts to your emotional needs.
+                  </span>
+                  <span className="block">
+                    It listens, responds naturally, and creates meaningful conversations that feel personal and supportive anytime, anywhere. The AI learns your preferences and meets you where you are emotionally, providing genuine support when you need it most.
+                  </span>
+                  <span className="block">
+                    <Link href="https://russai.farhankhan.fun/" className="text-[#b281fc] hover:opacity-70 transition font-medium">
+                      Visit Russai →
+                    </Link>
+                  </span>
+                </p>
+              </div>
             </div>
           </section>
         )}
