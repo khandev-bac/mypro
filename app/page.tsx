@@ -10,7 +10,7 @@ const experiences = [
   {
     company: 'NoteUp',
     role: 'Full Stack Engineer',
-    period: 'Jan 2026 – Present',
+    period: '',
     location: 'Remote',
     link: 'https://web.noteup.space/',
     tag: 'Current',
@@ -26,7 +26,7 @@ const experiences = [
   {
     company: 'BedenAI',
     role: 'Full Stack Engineer / Founder',
-    period: 'Jan 2026 – Present',
+    period: '',
     location: 'Remote',
     link: 'https://bedenai.farhankhan.fun/',
     tag: 'Current',
@@ -39,7 +39,7 @@ const experiences = [
   {
     company: 'Russai',
     role: 'Founder',
-    period: '2024 – Present',
+    period: '',
     location: 'Remote',
     link: 'https://russai.farhankhan.fun/',
     tag: 'Live',
