@@ -1,11 +1,12 @@
 import React from "react"
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Syne, DM_Mono, Outfit } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const _syne   = Syne({ subsets: ["latin"], variable: '--font-syne' });
+const _dmMono = DM_Mono({ subsets: ["latin"], weight: ['300', '400', '500'], style: ['normal', 'italic'], variable: '--font-dm-mono' });
+const _outfit = Outfit({ subsets: ["latin"], weight: ['300', '400', '500', '600'], variable: '--font-outfit' });
 
 export const metadata: Metadata = {
   title: 'Farhan Khan - Backend Engineer',
@@ -36,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`font-sans antialiased dark`}>
+      <body className={`${_syne.variable} ${_dmMono.variable} ${_outfit.variable} font-sans antialiased dark`}>
         {children}
         <Analytics />
       </body>
