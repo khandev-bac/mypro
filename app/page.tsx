@@ -475,7 +475,7 @@ export default function Home() {
                 X.com
               </Link>
               <Link
-                href="https://linkedin.com/in/farhan-khan"
+                href="https://www.linkedin.com/in/fkhan-dev/"
                 target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold transition-all duration-200"
                 style={{ fontFamily: 'var(--font-dm-mono), monospace', letterSpacing: '0.08em', background: 'rgba(0,212,255,0.06)', border: '1px solid rgba(0,212,255,0.2)', color: 'var(--cy)' }}
